@@ -22,6 +22,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.google.code.gson:gson:2.10")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-hateoas")
     implementation("org.springframework.boot:spring-boot-starter-jdbc")
